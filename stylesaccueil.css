@@ -92,3 +92,9 @@ img{ margin: 20px;border-radius: 50px;}
 
 .logos img {width: 80px;               /* taille des logos */
     height: auto;  flex: 0 0 30%;}
+.presentation section img {
+  width: min(350px, 100%);
+  height: auto;
+  display: block;
+}
+
