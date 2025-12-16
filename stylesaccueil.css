@@ -42,19 +42,24 @@ a{
 
 .disposition{
   display: flex;
-  justify-content: flex-start !important; /* empêche space-between */
   align-items: center;
-  gap: 30px; /* ajuste si tu veux : 20 / 30 / 40 */
+  justify-content: center; /* centre le duo image+texte */
+  gap: 30px;
 }
 
 .aside1{
-  margin-left: 0 !important;
-  padding-left: 0 !important;
+  max-width: 520px;   /* ajuste : 450-600 */
 }
-.presentation{
-  padding: 0 20px !important;
+@media (max-width: 900px){
+  .disposition{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .aside1{
+    max-width: 90%;
+    text-align: center;
+  }
 }
-
 
 
 
