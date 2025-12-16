@@ -74,4 +74,10 @@ a{
 }
 
 .categorie-competences:hover {
-    background-color: rgba(70, 69, 71, 0.155);}
+    background-color: rgba(70, 69, 71, 0.155)
+}
+.logos-competences img {
+  width: 80px;
+  height: auto;
+  display: inline-block;
+}
