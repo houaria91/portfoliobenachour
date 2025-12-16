@@ -42,7 +42,7 @@ a{
 
 .disposition{display: flex;
   align-items: center; 
-  gap: 30px; /* espace entre la photo et le texte */
+  gap: 10px; /* espace entre la photo et le texte */
   padding: 20px;}
 
 
