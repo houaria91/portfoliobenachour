@@ -43,23 +43,19 @@ a{
 .disposition{
   display: flex;
   align-items: center;
-  justify-content: center; /* centre le duo image+texte */
+  justify-content: center;
   gap: 30px;
 }
 
 .aside1{
-  max-width: 520px;   /* ajuste : 450-600 */
+  margin-left: 0;
+  max-width: 600px;
+  width: 600px;
 }
-@media (max-width: 900px){
-  .disposition{
-    flex-direction: column;
-    gap: 20px;
-  }
-  .aside1{
-    max-width: 90%;
-    text-align: center;
-  }
+.presentation{
+  padding: 0 30px;
 }
+
 
 
 
